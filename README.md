@@ -53,15 +53,15 @@
 - figure out where you are
 - use appropriate techniques for the domain
 - work on the constraints to move to the desired domain
-  -> relax constraints to open up novelty
+  - relax constraints to open up novelty
      - complicated -> complex
      - code spikes
-  -> increase constraints to exploit the results
+  - increase constraints to exploit the results
      - complex -> complicated
      - TDD (stabilize spike)
      - automation (complicated -> simple)
 - TDD (test-first) is probably best for complicated problems
 - spike-and-stabilize for complex problems
 - same for other agile techniques like pair programming
-  -> multiple parallel safe-to-fail experiments (code spikes) w/o pp
-  -> use pp to stabilize the best solution or in complicated domain
+  - multiple parallel safe-to-fail experiments (code spikes) w/o pp
+  - use pp to stabilize the best solution or in complicated domain
