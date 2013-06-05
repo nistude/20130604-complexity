@@ -14,43 +14,45 @@
 - considered an advanced technique, to be used when you mastered TDD
 - basically, code has to prove its value, only then do we need to test it
 - spikes are somewhat functional and thus have value
+- how to make sense of this? novice workaround similar to expert practice
 
 ## context to the rescue
 - different people see the same problem in different lights
 - where a novice doesn't understand the problem, a master resolves it easily
+- a need for different techniques in different situations
 
 ## the cynefin framework of sense-making
 - change some text on a web site
-  - simple domain
   - solution is self-evident
   - best practice
+  - simple domain
   - sense, categorize, respond
 
 - change styling of an element on a web site
-  - complicated domain
   - solution requires expert knowledge
   - known unknwon: how is the styling done? where can I put my change?
-   (unless you are the CSS master)
+    (unless you are the CSS master)
   - several proper solutions possible
   - good practice
+  - complicated domain
   - sense, analyze, respond
 
 - implement a new feature
-  - complex domain
   - emergent solution
     save-to-fail experiments (try different approaches on a development system)
-  - unknown unknowns: we have no idea beofrehands, how an approach will
+  - unknown unknowns: we have no idea beforehands, how an approach will
     actually interact with the existing code
+  - complex domain
   - probe, sense, respond
 
 - emergency production bug
-  - chaotic domain
   - just fix it, any way possible (novel solutions and innovation)
+  - chaotic domain
   - move to another domain as soon as possible and fix it properly
   - act, sense, respond
 
 ## so what?
-- figure out where you are
+- in order to successfully handle a situation, figure out where you are
 - use appropriate techniques for the domain
 - work on the constraints to move to the desired domain
   - relax constraints to open up novelty
